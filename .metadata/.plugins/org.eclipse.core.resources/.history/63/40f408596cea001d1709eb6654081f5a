@@ -1,0 +1,25 @@
+
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hola Mundo");
+		
+		
+		//TIPOS DE DATOS PRIMITIVOS
+		int numero=50;
+		System.out.println(numero);
+		
+		double concoma= 0.7;
+		System.out.println(concoma);
+		
+		boolean sino= true;
+		System.out.println(sino);
+		
+		
+		
+		
+	}
+
+}

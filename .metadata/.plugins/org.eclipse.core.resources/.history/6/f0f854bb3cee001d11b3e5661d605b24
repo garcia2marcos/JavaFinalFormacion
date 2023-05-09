@@ -1,0 +1,30 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Program {
+
+	public static void main(String[] args) throws IOException{
+		// TODO Auto-generated method stub
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		
+		//try {
+			
+			System.out.println("Ingrese su nombre :");
+			String nombre = reader.readLine();
+			System.out.println("Tu edad: ");
+			String edadInt = reader.readLine();
+			
+			
+			//Agregar que le pregunte tambien la edad
+			//Hacer conversion
+			int edad = Integer.parseInt(edadInt); // para pasar la conversion
+			
+			System.out.println("Tu nombre es: "+ nombre+ " y tu edad es: "+edad);
+			
+		
+		}
+
+	}
+
+

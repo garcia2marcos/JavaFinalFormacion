@@ -1,0 +1,46 @@
+
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hola Mundo");
+		
+		
+		//TIPOS DE DATOS PRIMITIVOS
+		int numero=50;
+		System.out.println(numero);
+		
+		double concoma= 0.7;
+		System.out.println(concoma);
+		
+		boolean sino= true;
+		System.out.println(sino);
+		
+		//Se pueden instanciar ya que es orientado a objetos
+		@SuppressWarnings("removal")//@son anotaciones
+		Integer num= new Integer(20);
+		System.out.println(num);
+		
+		
+		//TIPOS DE DATOS OBJETOS
+		String nombre = "Marcos"; //Necesitamos memoria
+		//como es tan comun no hace falta hacer new
+		String name = new String ("MarcosInstanciado");
+		System.out.println(nombre);
+		System.out.println(name);
+		
+		
+		//CONVERSION DE TIPOS
+		NUMERO= CONCOMA;
+		
+		
+		
+				
+		
+		
+		
+		
+	}
+
+}

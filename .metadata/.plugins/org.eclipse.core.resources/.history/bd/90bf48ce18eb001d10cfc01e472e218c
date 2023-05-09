@@ -1,0 +1,17 @@
+package course.java.talentCamp;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("clase dos");
+		
+		int number = 10;
+		int b=20;
+		
+		number=b;
+		
+		System.out.println(number);
+	}
+
+}
