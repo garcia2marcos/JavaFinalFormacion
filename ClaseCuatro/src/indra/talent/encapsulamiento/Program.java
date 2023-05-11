@@ -44,7 +44,7 @@ public class Program {
 		
 		
 		//AHORA CON CONSTRUCTOR OBLIGADO A USARLO
-		System.out.println("Quien va a enseñar al curso");
+		/*System.out.println("Quien va a enseñar al curso");
 		Teacher profesor = new Teacher(
 			Console.readString("¿Como te llamas?"),
 			Console.readInt("¿Cual es su DNI?"),
@@ -72,16 +72,16 @@ public class Program {
 		System.out.println("El profesor es: ");
 		System.out.println(profesor);
 		System.out.println("El Alumno es: ");
-		System.out.println(alumno);
+		System.out.println(alumno);*/
 		
 		//Student Marcos = new Student("Marcos", 48145244, "Constitucion");
 		//System.out.println(Marcos);
 
-		ProductoElectrónico movil = new ProductoElectrónico("movil", 245, 2, "xiaomi");
+		ProductoElectrónico movil = new ProductoElectrónico("movil", 245.99, 2, "xiaomi");
 		
 		System.out.println(movil);
 		
-		movil.vender(1);
+		movil.vender(Console.readInt("¿Cuantos quieres comprar?"));
 	}
 
 }

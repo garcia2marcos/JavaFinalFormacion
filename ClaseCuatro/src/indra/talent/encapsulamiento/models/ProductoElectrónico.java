@@ -44,9 +44,14 @@ public class ProductoElectrónico {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return this.getName() + "(Marca: " + this.getBrand() + ")" + "\n" +
+		/*return this.getName() + "(Marca: " + this.getBrand() + ")" + "\n" +
 		"["+ this.getPrice()+ "]" + "\n" +
-		"Quedan en stock "+ this.getStock();
+		"Quedan en stock "+ this.getStock();*/
+		
+		return String.format("La marca es: %s \n Tiene un precio de: %f \n Quedan en stock: %d" ,
+				this.brand,
+				this.price,
+				this.stock);
 	}
 	
 	public void vender(int stock) {
