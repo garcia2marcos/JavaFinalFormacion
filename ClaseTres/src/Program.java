@@ -7,8 +7,10 @@ import java.util.Scanner;
 import indra.utils.Consola;
 
 public class Program {
+	
 	static final int CANTIDAD_OPORTUNIDADES =5;
 	static final int MAX_VALUE = 100;
+	
 	public static void ejemploBufferedReader() throws IOException{
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		
