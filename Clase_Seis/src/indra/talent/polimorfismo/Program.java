@@ -32,6 +32,8 @@ public class Program {
 		batman.accion(excalibur);
 		thanos.accion(batman);
 		
+		personajes.forEach(p-> p.finalizarTurno());
+		
 		//Fin turno
 		System.out.println("------------------------");
 		System.out.println("Fin del turno");
