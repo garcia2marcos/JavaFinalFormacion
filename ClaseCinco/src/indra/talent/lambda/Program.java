@@ -144,6 +144,35 @@ public class Program {
 		List<Integer> numeros = Arrays.asList(4,6,8,9,12,15,17,20,200,400,500);
 			int sumatoria = numeros.stream().reduce(0,(acumulado, valorActual)-> acumulado+valorActual);
 			System.out.println(sumatoria);
+			
+		//Dada una lista de estudiantes sacara los qye tenga calificacion superior a 90
+			//List<Estudiantes> filtrados = estudiantes.stremam().filter(e-> getCalificacion>90).collect(Collectors.toList())
+			//estudiantes.filter(e-> e.getCalificacion()>90).forEach(system.out::println);
+			
+		//Dado un array de enteros utiliza una expresion lambsda para encontrar el numero mas grande
+			//int[] numeros = {1,2,3,4,5,6};
+			//List<int> numeros = ...;
+			
+			//int max = numeros.stream().max((a,b)->(a-b)).ofElse(0)
+			//max recibe una expresion que compara a y b
+			//si a>b devuelve positivo
+			//si a=b devuelve 0
+			//si a<b devuelve negativo
+			
+			//int max = numeros.stream().reduce(0,(a,b)-> Math.max(a,b))
+			//valorinicial 0
+			//de 1,2,3
+			//compara primero (0,1) y devuelve el mayor el 1
+			// despues (1,2) y devuelve el 2 asi hasta que saca el mayor
+			
+			
+			//Dad una liste de numeros enteros, utiliza una expresion lambda para obtener la suma de todos los pares
+			//numeros.stream().filter(n-> n%2==0).maptoint(n->n).sum()
+			//numeros.stream().filter(n->n%2==0).reduce(0,(a,b)->a+b)
+			
+			
+			//Dada una lista de objetos Producto con propiedades de nombre y precio, utiliza una expresion lambda para obtner el mas caro
+			//productos.stream().max((a,b)-> a.getPrecio()-b.getPrecio()).orElse(0).
 	}
 	
 

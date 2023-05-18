@@ -5,4 +5,8 @@
     <fullyQualifiedTypeName name="indra.talent.encapsulamiento.models.Student"/>
     <fullyQualifiedTypeName name="indra.talent.encapsulamiento.models.ProductoElectrónico"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="indra.talent.interfaces.Perimetro"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="indra.talent.genericos.FiguraGenerica"/>
 </qualifiedTypeNameHistroy>
