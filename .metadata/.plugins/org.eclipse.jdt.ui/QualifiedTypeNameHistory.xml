@@ -4,9 +4,19 @@
     <fullyQualifiedTypeName name="indra.talent.utils.Console"/>
     <fullyQualifiedTypeName name="indra.talent.encapsulamiento.models.Student"/>
     <fullyQualifiedTypeName name="indra.talent.encapsulamiento.models.ProductoElectrónico"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="indra.talent.interfaces.Perimetro"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="indra.talent.genericos.FiguraGenerica"/>
+    <fullyQualifiedTypeName name="indra.talent.composite.Suma"/>
+    <fullyQualifiedTypeName name="indra.talent.composite.Multiplicacion"/>
+    <fullyQualifiedTypeName name="indra.talent.composite.Valor"/>
+    <fullyQualifiedTypeName name="indra.talent.composite.OperacionBinaria"/>
+    <fullyQualifiedTypeName name="javax.script.ScriptEngineManager"/>
+    <fullyQualifiedTypeName name="org.mozilla.javascript.Context"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="indra.talent.objetos.SaldoInsuficienteException"/>
+    <fullyQualifiedTypeName name="indra.talent.objetos.Cliente.ClienteBuilder"/>
+    <fullyQualifiedTypeName name="indra.talent.objetos.Cliente"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
 </qualifiedTypeNameHistroy>
