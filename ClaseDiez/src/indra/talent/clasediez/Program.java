@@ -84,7 +84,7 @@ public class Program {
 	            }
 	        }
 
-	        for (Map.Entry<String, Integer> entry : contadorPalabras.entrySet()) {
+	        for (var entry : contadorPalabras.entrySet()) {
 	            String palabra = entry.getKey();
 	            int ocurrencia = entry.getValue();
 	            System.out.println("Palabra: " + palabra + ", Ocurrencia: " + ocurrencia);
